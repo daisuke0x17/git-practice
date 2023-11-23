@@ -4,7 +4,7 @@ on:
     branches:
       - main
 jobs:
-  check-bats-version:
+  echo-checkout:
     runs-on: ubuntu-latest
     steps:
       - run: echo "this is a pen"
