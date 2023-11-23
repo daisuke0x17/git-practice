@@ -8,5 +8,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
-        echo "this is env=${{ env.env_1 }}"
-        echo "commit hash is {{ github.ref }}"
+          echo "this is env=${{ env.env_1 }}"
+          echo "commit hash is {{ github.ref }}"
